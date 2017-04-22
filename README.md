@@ -1,4 +1,7 @@
-# test coverage for  [request-progress (v3.0.0)](https://github.com/IndigoUnited/node-request-progress#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-request-progress.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-request-progress) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-request-progress.svg)](https://travis-ci.org/npmtest/node-npmtest-request-progress)
+# npmtest-request-progress
+
+#### basic test coverage for  [request-progress (v3.0.0)](https://github.com/IndigoUnited/node-request-progress#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-request-progress.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-request-progress) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-request-progress.svg)](https://travis-ci.org/npmtest/node-npmtest-request-progress)
+
 #### Tracks the download progress of a request made with mikeal/request, giving insight of various metrics including progress percent, download speed and time remaining
 
 [![NPM](https://nodei.co/npm/request-progress.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/request-progress)
@@ -86,7 +89,8 @@
         "test-cov": "istanbul cover --dir test/coverage _mocha -- --bail && echo open test/coverage/lcov-report/index.html",
         "test-travis": "istanbul cover _mocha --report lcovonly -- --bail && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
